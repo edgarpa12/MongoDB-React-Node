@@ -1,0 +1,40 @@
+{
+  "name": "mongodb-react-node",
+  "version": "1.0.0",
+  "description": "Proyecto que se fue creando con el curso: \" Learning Full-Stack JavaScript Development: MongoDB, Node, and React \" de Linkedin Learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgarpa12/MongoDB-React-Node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edgarpa12/MongoDB-React-Node/issues"
+  },
+  "homepage": "https://github.com/edgarpa12/MongoDB-React-Node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "nodemon": "^2.0.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
