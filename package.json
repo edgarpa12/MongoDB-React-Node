@@ -4,7 +4,8 @@
   "description": "Proyecto que se fue creando con el curso: \" Learning Full-Stack JavaScript Development: MongoDB, Node, and React \" de Linkedin Learning",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/edgarpa12/MongoDB-React-Node#readme",
   "dependencies": {
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
     "mongodb": "^3.5.5",
     "prop-types": "^15.7.2",
